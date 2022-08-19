@@ -8,7 +8,7 @@
 
         public string FirstName { get; set; } = string.Empty;
 
-        public string SecondName { get; set; } = string.Empty;
+        public string SecondName { get; set; } = string.Empty;  
 
         public string Place { get; set; } = string.Empty;
     }
