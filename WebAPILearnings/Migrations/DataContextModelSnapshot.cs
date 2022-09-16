@@ -24,7 +24,7 @@ namespace WebAPILearnings.Migrations
             modelBuilder.Entity("WebAPILearnings.Models.SuperHero", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
+                        .IsRequired()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
